@@ -1,0 +1,46 @@
+body{
+  font-size: 25px;
+  background-color: #12121f;
+}
+table, th, td {
+  border: 1px solid black;
+  font-size: 24px;
+  text-align: center;
+  background-color: white;
+}
+i{
+  padding: 10px;
+}
+input{
+  border-radius: 10px;
+  height: 30px;
+  border: 3px solid rgb(253,29,29,0.6222864145658263);
+  
+}
+#dosearch{
+  margin-left: 35px;
+}
+form{
+  display: inline;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+}
+p{
+  display: inline;
+  margin-left: 30px;
+  font-size: 20px;
+}
+button{
+  background-color: transparent;
+  width: 125px;
+  height: 40px;
+}
+
+#gamereview{
+  margin-top: 10px;
+  width: 580px;
+  height: 40px;
+}

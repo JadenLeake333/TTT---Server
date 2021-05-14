@@ -1,0 +1,14 @@
+If you want to work on something just put your name next to it, or add whatever you think needs to be done
+
+To do:
+-Creating queries for the product DB - Jaden
+-The 'main.html' template - Matt and Dylan
+-Implementation of 'recipes.js' - Jaden
+-Notifications - Jaden
+-Delete dates after expr. date - Jaden
+-navbar for view.html - Matt
+-dropdown select - Matt
+
+
+
+- If email was sent today, dont send another. Mark down date of emails sent - add new column

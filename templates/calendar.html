@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link href="/static/css/calendar.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+
+
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
+  </head>
+  <body>
+
+    <ul id="myNavbar">
+  <li id="myNavbar2"><a href='/home'>Calendar</a></li>
+  <li id="myNavbar2"><a href='/view'>View</a></li>
+  <li id="myNavbar2"><a href='/addfood'>Add Food</a></li>
+  <li id="myNavbar2"><a href="/dylan">Tips</a></li>
+  <li id="myNavbar3"><a href='/logout'>Logout</a></li>
+</ul>
+
+<div class="container" >
+  <div class="mattcalender">
+
+      <div class="calendar">
+        <div class="month">
+          <i class="fas fa-angle-left prev"></i>
+          <div class="date">
+            <h1></h1>
+            <p></p>
+          </div>
+          <i class="fas fa-angle-right next"></i>
+        </div>
+        <div class="weekdays">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="days">
+        </div>
+    </div>
+  </div>
+</div>
+
+    <script src="static/js/calendar.js"></script>
+  </body>
+</html>

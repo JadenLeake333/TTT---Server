@@ -1,0 +1,99 @@
+.wrap-logindylan {
+  width: 1000px;
+  height: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 55px 55px 37px 55px;
+
+  background: #ffffff;
+  background: -webkit-linear-gradient(top, #ffffff, hsl(0, 0%, 100%));
+  background: -o-linear-gradient(top, #ffffff, #ffffff);
+  background: -moz-linear-gradient(top, #ffffff, #ffffff);
+  //background: center url('../images/darkwood.jpg');//https://www.seriouseats.com/2019/07/20190701-wood-cutting-boards-vicky-wasik-5-bk-butcher-block-edge-grain-full-silo.jpg
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+a:hover {
+  color:black;
+	text-decoration: underline;
+}
+
+select { 
+                background: transparent; 
+                border:transparent;
+                width: 100%; 
+            } 
+            .select { 
+                position: center; 
+                overflow: hidden; 
+            } 
+
+button {
+  color: white;
+}
+button:hover{
+  text-decoration:underline;
+  text-decoration-color: white;
+}
+
+#myNavbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#myNavbar2 {
+  float: left;
+}
+
+#myNavbar2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#myNavbar2 a:hover {
+  background-color: #111;
+}
+
+#myNavbar3 {
+  float: right;
+}
+
+
+#myNavbar3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#myNavbar3 a:hover {
+  background-color: #111;
+}
+
